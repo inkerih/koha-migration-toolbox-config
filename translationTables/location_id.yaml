@@ -74,7 +74,7 @@
 
 297: branchLoc(ERIK, KASIK, HUM) #"115","KK kasikirjoitukset","Kansalliskirjaston kasikirjoituskokoelma",,,"N","1","699"
 +115: ref(297)
-324: branchLoc(AVOK, ULKOFEN, FEN) #"109","KK Ulkofennica","Kansalliskirjasto, Ulkofennica",,,"Y","1","19"
+324: branchLoc(ERIK, ULKOFEN, FEN) #"109","KK Ulkofennica","Kansalliskirjasto, Ulkofennica",,,"Y","1","19"
 +109: ref(324)
 #ulkofennican toivottu toimiminen vielä varmistettava
 449: branchLoc(KK, KON) #"119","KK konservoitavana","Kansalliskirjasto, konservoitavana, ei kaytettavissa","119",,"N","1","0"

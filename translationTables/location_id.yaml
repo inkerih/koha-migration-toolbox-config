@@ -30,11 +30,11 @@
 +122: ref(6) ##TÄMÄ VAATII VIELÄ JAKOA KOLMEEN AINAEISTOLAJIN JA NOUTOPAIKAN MUKAAN! -VAI VAATIIKO
 7:   branchLoc(AVOK, SLAAVO, SLA) #"121","KK H2 28vrk","Kansalliskirjasto Slavica Avokokoelma, 28 vrk","121","Y","N","1","11196"
 +121: ref(7)
-8:   branchLoc(SLALS, SLAVAR, SLA) #"124","KK H2 s0vrk","Kansalliskirjasto Slavica Varasto, ei kotilainaan","124","Y","N","1","120250"
+8:   branchLoc(SLALS, SLAVARB, SLA) #"124","KK H2 s0vrk","Kansalliskirjasto Slavica Varasto, ei kotilainaan","124","Y","N","1","120250"
 +124: ref(8) ##TÄMÄ VAATII VIELÄ JAKOA KOLMEEN AINAEISTOLAJIN JA NOUTOPAIKAN MUKAAN! -VAI VAATIIKO
-9:   branchLoc(VARKL, SLAVARK, SLA) #"123","KK H2 s28vrk","Kansalliskirjasto Slavica Varasto, 28 vrk","123","Y","N","1","102702"
+9:   branchLoc(VARKL, SLAVARA, SLA) #"123","KK H2 s28vrk","Kansalliskirjasto Slavica Varasto, 28 vrk","123","Y","N","1","102702"
 +123: ref(9)
-51:  branchLoc(EI_KOHAAN, POISTETTU,) #"126","zKK H 0vrk avokok","Kansalliskirjasto, ei kotilainaan","126","Y","N","1","0"
+51:  branchLoc(EI_KOHAAN, POISTETTU) #"126","zKK H 0vrk avokok","Kansalliskirjasto, ei kotilainaan","126","Y","N","1","0"
 +126: ref(51)
 52:  branchLoc(EI_KOHAAN, POISTETTU) #"127","zKK H 28vrk avokok","Kansalliskirjasto, laina-aika 28 vrk","127","Y","N","1","0"
 +127: ref(52)
@@ -49,10 +49,10 @@
 #Käytetty voyagerissa tilapäiskokoelmana
 231: branchLoc(AVOK, TYOHUO, HUM) #"106","KK tyahuoneet","Kansalliskirjasto,  tyahuonekaytassa",,,"N","1","1942"
 +106: ref(231) #pysyväiskäyttö
-#voisi harkita item typeä, joka piilottaa nämä OPACista, jos se toimii myös Finnassa.
-234: branchLoc(EI_KOHAAN, TILAPÄISKOKOELMA) #"107","KK uutuushylly","Kansalliskirjasto, uutuushylly",,,"N","1","0"
+#voisi harkita item typeä, joka piilottaa nämä työhuonekäytössä olevat OPACista, jos se toimii myös Finnassa.
+234: branchLoc(EI_KOHAAN, UUTUUS) #"107","KK uutuushylly","Kansalliskirjasto, uutuushylly",,,"N","1","0"
 +107: ref(234) # temp location
-238: branchLoc(EI_KOHAAN, EI KÄYTÖSSÄ) #"108","KK tietopalvelu","Kansalliskirjasto, tietopalvelukaytassa",,,"N","1","0"
+238: branchLoc(EI_KOHAAN, KONVERSIO) #"108","KK tietopalvelu","Kansalliskirjasto, tietopalvelukaytassa",,,"N","1","0"
 +108: ref(238) # ei liene olemassa, jos on siirretään työhuuonekirjoiksi
 245: branchLoc(EI_KOHAAN, TEKNINEN) #"02101","KK lukusalin lainaus","Kansalliskirjasto, lukusalin lainaus",,,"Y","1","0"
 +02101: ref(245) #tekninen kokoelma, ei käytössä
@@ -69,11 +69,11 @@
 
 #Jos on projektikäytössä, olisi varmaan parempi lainata niteet projektin kortille.
 #Näiden kohtalo pitäisi katsoa tarkemmin, laitettu nyt samaan kuin mikä on default.
-295: branchLoc(KONVERSIO, KONVCC, KON) #"112","KK projektikaytassa","Kansalliskirjasto, PROJEKTIKaYTaSSa",,,"N","1","0"
+295: branchLoc(KONVERSIO, KONVERSIO) #"112","KK projektikaytassa","Kansalliskirjasto, PROJEKTIKaYTaSSa",,,"N","1","0"
 +112: ref(295)
 #Jos on tutkijakäytössä, olisi varmaan parempi lainata niteet projektin kortille.
 #Näiden kohtalo pitäisi katsoa tarkemmin, laitettu nyt samaan kuin mikä on default.
-296: branchLoc(KONVERSIO, KONVCC, KON) #"113","KK tutkijakaytassa","Kansalliskirjasto, lukusali, tutkijakaytassa",,,"N","1","0"
+296: branchLoc(KONVERSIO, KONVERSIO) #"113","KK tutkijakaytassa","Kansalliskirjasto, lukusali, tutkijakaytassa",,,"N","1","0"
 +113: ref(296)
 
 297: branchLoc(ERIK, KASIK, HUM) #"115","KK kasikirjoitukset","Kansalliskirjaston kasikirjoituskokoelma",,,"N","1","699"
